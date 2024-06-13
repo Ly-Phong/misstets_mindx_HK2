@@ -1,0 +1,50 @@
+.spy_container {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 400px;
+}
+
+.spy_image_container {
+  position: relative;
+  max-width: 100%; 
+  margin: 0 auto;
+}
+
+.spy_image {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.spy_info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  /* padding: 20px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background 0.5s ease;
+}
+
+.spy_movie_name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.spy_episode {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.spy_description {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.spy_image_container:hover .spy_info {
+  background: rgba(0, 0, 0, 0.8); /* Tối hơn khi hover */
+}

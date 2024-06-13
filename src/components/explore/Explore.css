@@ -1,0 +1,16 @@
+.explore_container
+{
+    margin-top: var(--header-height);
+}
+
+.explore_container .explore_header
+{
+    color: var(--white);
+    font-size: 20px;
+}
+
+.explore_container .explore_suggestion
+{
+    margin-top: 10px;
+    color: var(--grey-blue);
+}

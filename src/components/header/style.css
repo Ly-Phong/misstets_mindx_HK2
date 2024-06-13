@@ -1,0 +1,74 @@
+.Logo_container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    height: var(--header-height);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99999;
+}
+
+.Logo_container .itm_logo {
+    width: 25%;
+    font-size: 30px;
+
+    margin: auto;
+    color: var(--white);
+}
+
+div.menu_container {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo_container .search_container {
+    width: 40%;
+    margin: auto;
+    text-align: right;
+}
+
+input {
+    border: 1px solid #ccc;
+    /* Màu và độ dày của viền */
+    border-radius: 10px;
+    /* Độ cong của viền */
+    padding: 8px 12px;
+    /* Khoảng cách từ nội dung đến viền */
+    font-size: 16px;
+    /* Cỡ chữ */
+    outline: none;
+    /* Loại bỏ đường viền khi focus */
+}
+
+input:hover {
+    border-color: #666;
+    /* Thay đổi màu viền khi hover */
+}
+
+a{
+    text-decoration: none; /* Loại bỏ dấu gạch chân */
+    color: inherit; /* Kế thừa màu chữ từ phần tử cha */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu sắc mượt mà */
+}
+a:hover{
+    color: white; /* Đổi màu chữ thành màu trắng khi hover */
+}
+
+
+.logo_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* Màu nền header */
+    color: white;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
